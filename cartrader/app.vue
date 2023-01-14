@@ -32,6 +32,29 @@
       <div class="z-10 absolute w-full h-full flex justify-center items-center">
         <div class="text-center w-1/2">
           <h1 class="text-8xl font-serif mb-10 text-white">Find your drive</h1>
+          <!-- SEARCH BAR -->
+          <div
+            class="
+              font-serif
+              w-[800px]
+              text-2xl
+              rounded-full
+              bg-white
+              justify-between
+              flex
+              overflow-hidden
+              drop-shadow-2xl
+              mx-auto
+            "
+          >
+            <input
+              type="text"
+              class="py-3 px-5 w-full text-2xl rounded-full focus:outline-none"
+              placeholder="Search by ctiy..."
+            />
+            <button class="bg-sky-500 px-10 text-white">Search</button>
+          </div>
+          <!-- SEARCH BAR -->
         </div>
       </div>
       <div class="z-1 absolute w-full h-full bg-black opacity-50"></div>
